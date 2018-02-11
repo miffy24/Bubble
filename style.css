@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.red.active{
+	background: red;
+}
+.green.active{
+	background: green;
+}
+.pink.active{
+	background: pink;
+}
+.purple.active{
+	background: purple;
+}
+.blue.active{
+	background: blue;
+}
+.orange.active{
+	background: orange;
+}
+div{
+	border:1px solid black;
+	padding: 30px;
+	transform: all 0.5s;
+	display: flex;
+	flex:1;
+	border-radius: 50%;
+	background: white;
+}
+.red{
+	width:100vw;
+	height: 100vh;
+}
